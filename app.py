@@ -13,8 +13,6 @@ app = Flask(__name__)
 def inicio():
     # `render_template` busca archivos dentro de la carpeta `templates`.
     return render_template("index.html")
-
-
 # Este bloque se ejecuta solo si corremos `python app.py` desde la terminal.
 if __name__ == "__main__":
     # `debug=True` sirve en desarrollo porque reinicia el servidor
